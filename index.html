@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+	  <!-- ScrollReveal Library -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Mobile Menu Button -->
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1>Welcome to <span>My Portfolio</span></h1>
+      <p>Hi, I'm a passionate Web Developer creating modern and responsive websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+	    <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <!-- Profile Picture -->
+        <div class="about-profile">
+          <img src="website-pic.jpg" alt="Profile Picture">
+        </div>
+
+        <h2>About Me</h2>
+        <p>
+          I’m <strong>John Doe</strong>, a passionate web developer who loves creating
+          beautiful, functional, and responsive websites. With a strong foundation
+          in <em>HTML, CSS, and JavaScript</em>, I focus on delivering engaging
+          digital experiences that bring ideas to life.
+        </p>
+        <p>
+          Outside of coding, I enjoy solving design challenges, learning new
+          technologies, and contributing to open-source projects. My goal is to
+          blend creativity and logic to build products that inspire people.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="https://via.placeholder.com/300x300.png?text=My+Work" alt="About Work">
+      </div>
+    </div>
+  </section>
+
+	  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="projects-container">
+      <h2>My Projects</h2>
+      <p class="projects-intro">
+        Here are some of the projects I’ve worked on. Each project reflects my passion for design and clean code.
+      </p>
+
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250.png?text=Project+1" alt="Project 1">
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>A modern and responsive portfolio built with HTML, CSS, and JavaScript to showcase my work.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250.png?text=Project+2" alt="Project 2">
+          <div class="project-info">
+            <h3>E-Commerce Store</h3>
+            <p>An online shopping platform featuring product listings, cart system, and responsive design.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x250.png?text=Project+3" alt="Project 3">
+          <div class="project-info">
+            <h3>Task Manager App</h3>
+            <p>A productivity app to manage daily tasks with a simple UI and JavaScript-based interactivity.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+	    <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p class="contact-intro">
+        Have a question, want to work together, or just say hello? Fill out the form below or reach me directly.
+      </p>
+
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Direct Contact Info -->
+      <div class="direct-contact">
+        <h3>Other Ways to Reach Me</h3>
+        <ul>
+          <li>📧 Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></li>
+          <li>📱 WhatsApp: <a href="https://wa.me/1234567890" target="_blank">+91 12345 67890</a></li>
+          <li>💼 LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
